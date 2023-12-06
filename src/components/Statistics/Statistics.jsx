@@ -2,9 +2,9 @@ import React from 'react';
 
 export class Statistics extends React.Component {
   render() {
-    if (this.props.total === 0) {
-      return <p>No feedback given!</p>;
-    }
+    // if (this.props.total === 0) {
+    //   return <p>No feedback given!</p>;
+    // }
     return (
       <div>
         <p>Good: {this.props.good}</p>
